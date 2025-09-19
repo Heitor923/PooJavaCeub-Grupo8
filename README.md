@@ -1,5 +1,6 @@
-﻿# PooJavaCeub-Grupo8
+# Loja de Musica - Java
 
+```mermaid
 classDiagram
     class Produto {
         <<abstract>>
@@ -78,5 +79,8 @@ classDiagram
     ItemVenda "1" --> "1" Produto
     Funcionario "1" --> "*" Venda
     Produto --> Categoria
+
+
+
 
 
